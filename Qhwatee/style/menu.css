@@ -1,0 +1,38 @@
+
+.navbar {
+  overflow: hidden;
+  background-image: url("posters/background.png");
+  background-size: 100%;
+  margin: auto;
+  height: 200px;
+  padding-left:90px;
+  padding-top: 50px;
+  width: 84%;
+  font-family: Arial, sans-serif;
+  top: 0%;
+}
+
+.navbar a {
+  float: left;
+  display: flex;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px 70px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nonactive {
+  background-color: #477D66;
+  color: white;
+}
+.active {
+  background-color: #016241;
+  color: white;
+}
+.up  {
+  background-color: #A0C391;
+}
