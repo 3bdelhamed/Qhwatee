@@ -1,59 +1,114 @@
 
+
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-image: url("posters/background.png");
+    background-size: 100%;
+    margin: auto;
+    height: 200px;
+    padding-left:90px;
+    padding-top: 50px;
+    width: 84%;
     font-family: Arial, sans-serif;
     top: 0%;
-    
   }
 
   .navbar a {
     float: left;
-    display: block;
-    color: white;
+    display: flex;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 40px 70px;
     text-decoration: none;
   }
-
+ 
   .navbar a:hover {
     background-color: #ddd;
     color: black;
   }
-  
-  .active {
-    background-color: #6F1F39;
+  .nonactive {
+    background-color: #FDC935;
     color: white;
   }
-  /* navend */
+  .active {
+    background-color: #FDC935;
+    color: white;
+  }
+  .up  {
+    background-color: #D85B4E;
+  }
+  /* nav-end */
   main{
-    background-color: black;
-    height: 700px;
-
+    background-color: #A0C391;
+    height: auto;
+    margin: auto;
   }
-section{
+  body{
     margin: 0%;
-    background-color: rgb(188, 62, 62);
-    height: 300px;
+  }
+  section{
     display: flex;
+    width: 90%;
+    margin: auto;
   }
- h2{
-   
- }
- .imginsec{
-    margin: 20px;
-    padding-left:200px;
- }
-  footer{
-    background-color: #B51144;
-    height: 100px;
+  .fsec{
+    background-color: #FFC519;
+    height: 637px;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 25px 0px 0px 25px;
   }
-  body {
-    margin: 0%;
-  }
-  .st{
-
-
+.cinnmon{
+    width: 100%;
+    height: 637px;
+}
+h2,h3,h1{
+    color: #1E3932;
+    margin:100px;
+    padding: 10px;
     text-align: center;
 
-  }
+}
+.tsec{
+    background-color: #FEF4D5;
+    height: 637px;
+    width: 50%;
+    margin-top: 20px;
+}
+.trsec{
+    background-color: #FEF4D5;
+    height: 370px;
+    width: 50%;
+    margin-top: 20px;
+}
+.trf{
+    color: #1E3932;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.delvery{
+    height: 370px;
+    width: 734px;
+}
+.ordernow{
+    display: inline-block;
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 15px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+
+    margin-left: 300px;
+}
+.fssec{
+  width: 100%;
+  height: 100%;
+
+}
+
